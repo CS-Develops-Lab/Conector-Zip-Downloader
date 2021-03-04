@@ -23,6 +23,7 @@ def saveZip(byte, name):
     f.write(byte)
     f.close()
 
+
 with open('rps.txt', 'r') as f:
     first_column = [row[0] for row in csv.reader(f, delimiter=';')]
 
